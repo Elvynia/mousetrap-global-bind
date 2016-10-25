@@ -1,0 +1,7 @@
+{
+  "name": "mousetrap-global-bind",
+  "dependencies": {},
+  "globalDevDependencies": {
+    "mousetrap": "registry:dt/mousetrap#1.5.0+20160501152135"
+  }
+}

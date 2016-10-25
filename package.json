@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Mousetrap plugin for global bindings (works in input elements) with an additionnal unbindGlobal method.",
   "main": "mousetrap-global-bind.js",
+  "types": "index.d.ts",
   "scripts": {
+	"postversion": "git push --follow-tags",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/Elvynia/mousetrap-global-bind/issues"
   },
-  "homepage": "https://github.com/Elvynia/mousetrap-global-bind#readme"
+  "homepage": "https://github.com/Elvynia/mousetrap-global-bind#readme",
+  "peerDependencies": {
+    "mousetrap": "^1.6.0"
+  }
 }
